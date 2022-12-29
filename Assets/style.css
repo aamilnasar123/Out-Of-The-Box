@@ -25,6 +25,7 @@
   --whatsapp-green-color: #25d366;
   --font: "Poppins";
   --dark-color: #00b664;
+  --light-color:#D1F9E7;
 }
 body {
   overflow-x: hidden;
@@ -155,7 +156,7 @@ nav .links a:hover::before {
       height: auto;
       flex-direction: column;
       justify-content: space-evenly;
-      background-color: rgba(0, 0, 0, 0.8);
+      background-color: var(--light-color);
       overflow: hidden;
       transition: all 0.5s ease-in-out;
     }

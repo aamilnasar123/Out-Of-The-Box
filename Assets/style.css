@@ -24,6 +24,7 @@
   --tertiary-text-color: #787878;
   --whatsapp-green-color: #25d366;
   --font: "Poppins";
+  --dark-color: #00b664;
 }
 body {
   overflow-x: hidden;
@@ -73,11 +74,15 @@ nav .links {
 nav .links li {
   list-style: none;
 }
-.demo {
-    background-color: var(--main-cta-btn-color);
-    padding: 11px 20px;
-    color: #fff;
-    border-radius: 5px;
+nav button {
+  background-color: var(--main-cta-btn-color);
+  padding: 14px 30px;
+  color: var(--primary-bg-color);
+  border-radius: 5px;
+  border: var(--main-cta-btn-color);
+  font-weight: 400;
+  font-size: 18px;
+  font-weight: 10px;
 }
 nav .links a {
   display: block;
@@ -89,4 +94,27 @@ nav .links a {
   position: relative;
   font-family: var(--font);
   color: #000000;
+}
+nav button:hover {
+  opacity: 0.8;
+}
+nav .links a:hover {
+  color: var(--dark-color);
+}
+nav .links a::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--dark-color);
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+}
+nav .links a:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
+  color: var(--dark-color);
 }

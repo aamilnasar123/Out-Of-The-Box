@@ -1,0 +1,29 @@
+/**-------------**/
+/**---DEFAULT---**/
+/**------------**/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/**------------------------**/
+/**--COLORS AND FONTS USED--*/
+/**------------------------**/
+:root {
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #bad9cb;
+  --tertiary-bg-color: #bad9cb;
+  --main-cta-btn-color: #42B883;
+  --secondary-brand-color: #42B883;
+  --main-cta-btn-hover-color: #42B883;
+  --course-card-bg-color: #bad9cb;
+  --second-cta-btn-color: #5800ff;
+  --main-text-color: #00312d;
+  --secondary-text-color: #090909;
+  --tertiary-text-color: #787878;
+  --whatsapp-green-color: #25d366;
+  --main-text: "Poppins", "roboto", "arial";
+  --head:
+  --secondary-text: "Open Sans", "Avanir", "arial";
+}

@@ -186,7 +186,7 @@ nav .icon-burger .line {
 }
 .hero_section_content h2 {
   position: absolute;
-  top: 200px;
+  top: 170px;
   display: flex;
 
   font-family: "Poppins";
@@ -200,7 +200,7 @@ nav .icon-burger .line {
 }
 .hero_section_content h1 {
   position: absolute;
-  top: 280px;
+  top: 220px;
 
   font-family: "Source Sans Pro";
   font-style: normal;
@@ -213,7 +213,7 @@ nav .icon-burger .line {
 .hero_section_content p {
   position: absolute;
 
-  top: 450px;
+  top: 380px;
 
   font-family: "Poppins";
   font-style: normal;
@@ -223,25 +223,38 @@ nav .icon-burger .line {
 
   color: #868686;
 }
-.hero_section_button1{
-  margin-top: 540px;
-  width: 200px;
-  height: 50px;
-
-  background: #42B883;
-  border-radius: 10px;
-}
 .hero_section_img {
   display: flex;
   justify-content: end;
   margin-top: 210px;
 }
+.hero_section_button{
+  margin-top: -150px;
+  margin-left: 65px;
+  display: flex;
+}
+.b1{
+  color: #fff;
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  align-items: center;
+  padding-left: 67px;
+  padding-top: 12px;
+  padding-bottom: 11px;
+  text-decoration: none;
+  background: #42B883;
+  border-radius: 10px;
+  padding-right: 51px;
+}
 
+}
 @media screen and (max-width: 768px) {
   .hero_section_content h1 {
     position: absolute;
     top: 220px;
-
+  
     font-family: "Source Sans Pro";
     font-style: normal;
     font-weight: 600;

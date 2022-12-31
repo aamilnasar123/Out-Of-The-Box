@@ -232,6 +232,9 @@ nav .icon-burger .line {
   margin-top: -150px;
   margin-left: 65px;
   display: flex;
+  padding: 0 4em;
+  align-items: stretch;
+
 }
 .b1{
   color: #fff;
@@ -240,13 +243,39 @@ nav .icon-burger .line {
   font-weight: 600;
   font-size: 30px;
   align-items: center;
-  padding-left: 67px;
+  padding-left: 51px;
   padding-top: 12px;
   padding-bottom: 11px;
   text-decoration: none;
   background: #42B883;
   border-radius: 10px;
   padding-right: 51px;
+  cursor: pointer;
+}
+.b1:hover{
+  opacity: 0.8;
+}
+.b2{
+  color: #42B883;
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  border: 2px solid #42B883;
+  border-radius: 10px;
+  align-items: center;
+  padding-left: 40px;
+  padding-top: 12px;
+  padding-bottom: 11px;
+  text-decoration: none;
+  border-radius: 10px;
+  padding-right: 40px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.b2:hover{
+  background-color: #42b883;
+  color:#fff;
 }
 @media screen and (max-width: 768px) {
   .hero_section_content h1 {
@@ -289,8 +318,46 @@ nav .icon-burger .line {
     text-transform: capitalize;
     color: #42b883;
   }
-  .hero_section_img {
-    width: 100px;
+  .b1{
+    color: #fff;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size:18px;
+    align-items: center;
+    padding-left: 51px;
+    padding-top: 12px;
+    padding-bottom: 11px;
+    text-decoration: none;
+    background: #42B883;
+    border-radius: 10px;
+    padding-right: 51px;
+    cursor: pointer;
+  }
+  .b1:hover{
+    opacity: 0.8;
+  }
+  .b2{
+    color: #42B883;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    border: 2px solid #42B883;
+    border-radius: 10px;
+    align-items: center;
+    padding-left: 40px;
+    padding-top: 12px;
+    padding-bottom: 11px;
+    text-decoration: none;
+    border-radius: 10px;
+    padding-right: 40px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  .b2:hover{
+    background-color: #42b883;
+    color:#fff;
   }
 }
 @media screen and (max-width: 894px) {
@@ -298,7 +365,7 @@ nav .icon-burger .line {
     display: flex;
     height: 230px;
     margin-left: 300px;
-    margin-top: 550px;
+    margin-top: 700px;
     align-content: center;
   }
 }

@@ -225,6 +225,11 @@ nav .icon-burger .line {
 
   color: #868686;
 }
+.hero_section_img{
+  display: flex;
+  justify-content: end;
+  margin-top: 210px;
+}
 @media screen and (max-width: 768px){
   .hero_section_content h1 {
   position: absolute;
@@ -268,5 +273,16 @@ nav .icon-burger .line {
     text-transform: capitalize;
     color: #42b883;
   }
+  .hero_section_img{
+    width: 100px;
+  }
+  
 
+}
+@media screen and (max-width: 894px){
+  .hero_section_img{
+    display: flex;
+    width: 100%;
+    margin-top: 550px;
+  }
 }

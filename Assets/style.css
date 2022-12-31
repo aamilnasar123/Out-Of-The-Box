@@ -225,3 +225,48 @@ nav .icon-burger .line {
 
   color: #868686;
 }
+@media screen and (max-width: 768px){
+  .hero_section_content h1 {
+  position: absolute;
+  top: 220px;
+
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 60px;
+  justify-content: space-around;
+  color: #324a58;
+}
+
+  .hero_section_content p {
+    position: absolute;
+   
+    top: 400px;
+  
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+  
+  
+  
+    color: #868686;
+  }
+  .hero_section_content h2 {
+    position: absolute;
+    top: 170px;
+    display: flex;
+  
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 42px;
+    /* or 175% */
+    text-transform: capitalize;
+    color: #42b883;
+  }
+
+}

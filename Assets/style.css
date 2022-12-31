@@ -277,6 +277,11 @@ nav .icon-burger .line {
   background-color: #42b883;
   color:#fff;
 }
+.hero_section h3{
+  margin-top: 500px;
+  color: #000000;
+}
+
 @media screen and (max-width: 768px) {
   .hero_section_content h1 {
     position: absolute;

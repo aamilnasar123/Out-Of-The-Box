@@ -210,7 +210,7 @@ nav .icon-burger .line {
   justify-content: space-around;
   color: #324a58;
 }
-.hero_section_content p {
+.text1 {
   position: absolute;
 
   top: 380px;
@@ -281,11 +281,13 @@ nav .icon-burger .line {
   margin-top: 500px;
   color: #000000;
 }
-.hero_section p{
+.text2{
   font-size: 20px;
   font-weight: 500;
   color: #01161E;
-  margin-top: 800px;
+  margin-top: 43px;
+  margin-left: 65px;
+  font-family: "Montserrat", sans-serif;
 }
 @media screen and (max-width: 768px) {
   .hero_section_content h1 {

@@ -228,17 +228,16 @@ nav .icon-burger .line {
   justify-content: end;
   margin-top: 210px;
 }
-.hero_section_button{
+.hero_section_button {
   margin-top: -150px;
   margin-left: 5px;
   display: flex;
   padding: 0 4em;
   align-items: stretch;
-
 }
-.b1{
+.b1 {
   color: #fff;
-  font-family: 'Source Sans Pro';
+  font-family: "Source Sans Pro";
   font-style: normal;
   font-weight: 600;
   font-size: 30px;
@@ -247,21 +246,21 @@ nav .icon-burger .line {
   padding-top: 12px;
   padding-bottom: 11px;
   text-decoration: none;
-  background: #42B883;
+  background: #42b883;
   border-radius: 10px;
   padding-right: 51px;
   cursor: pointer;
 }
-.b1:hover{
+.b1:hover {
   opacity: 0.8;
 }
-.b2{
-  color: #42B883;
-  font-family: 'Source Sans Pro';
+.b2 {
+  color: #42b883;
+  font-family: "Source Sans Pro";
   font-style: normal;
   font-weight: 600;
   font-size: 30px;
-  border: 2px solid #42B883;
+  border: 2px solid #42b883;
   border-radius: 10px;
   align-items: center;
   padding-left: 40px;
@@ -273,18 +272,18 @@ nav .icon-burger .line {
   cursor: pointer;
   margin-left: 10px;
 }
-.b2:hover{
+.b2:hover {
   background-color: #42b883;
-  color:#fff;
+  color: #fff;
 }
-.hero_section h3{
+.hero_section h3 {
   margin-top: 500px;
   color: #000000;
 }
-.text2{
+.text2 {
   font-size: 20px;
   font-weight: 500;
-  color: #01161E;
+  color: #01161e;
   margin-top: 43px;
   margin-left: 65px;
   font-family: "Montserrat", sans-serif;
@@ -293,7 +292,7 @@ nav .icon-burger .line {
   .hero_section_content h1 {
     position: absolute;
     top: 220px;
-  
+
     font-family: "Source Sans Pro";
     font-style: normal;
     font-weight: 600;
@@ -330,54 +329,54 @@ nav .icon-burger .line {
     text-transform: capitalize;
     color: #42b883;
   }
-  .hero_section_button{
+  .hero_section_button {
     margin-top: -400px;
     margin-left: -11px;
-    display: flex; 
-    padding: 0 4em; 
+    display: flex;
+    padding: 0 4em;
     align-items: stretch;
   }
-  .b1{
-    color: #fff; 
-    font-family: 'Source Sans Pro'; 
-    font-style: normal; 
-    font-weight: 600; 
-    font-size: 25px; 
-    align-items: center; 
-    padding-left: 40px; 
-    padding-top: 21px; 
-    padding-bottom: 1px; 
-    text-decoration: none; 
-    background: #42B883; 
-    border-radius: 10px; 
-    padding-right: 40px; 
+  .b1 {
+    color: #fff;
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    align-items: center;
+    padding-left: 40px;
+    padding-top: 21px;
+    padding-bottom: 1px;
+    text-decoration: none;
+    background: #42b883;
+    border-radius: 10px;
+    padding-right: 40px;
     cursor: pointer;
   }
 
-  .b1:hover{
+  .b1:hover {
     opacity: 0.8;
   }
-  .b2{
-    color: #42B883; 
-    font-family: 'Source Sans Pro'; 
-    font-style: normal; 
-    font-weight: 600; 
-    font-size: 20px; 
-    border: 2px solid #42B883; 
-    border-radius: 10px; 
-    align-items: center; 
-    padding-left: 25px; 
-    padding-top: 21px; 
-    padding-bottom: 19px; 
-    text-decoration: none; 
-    border-radius: 10px; 
-    padding-right: 25px; 
-    cursor: pointer; 
+  .b2 {
+    color: #42b883;
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    border: 2px solid #42b883;
+    border-radius: 10px;
+    align-items: center;
+    padding-left: 25px;
+    padding-top: 21px;
+    padding-bottom: 19px;
+    text-decoration: none;
+    border-radius: 10px;
+    padding-right: 25px;
+    cursor: pointer;
     margin-left: 19px;
   }
-  .b2:hover{
+  .b2:hover {
     background-color: #42b883;
-    color:#fff;
+    color: #fff;
   }
 }
 @media screen and (max-width: 894px) {

@@ -288,6 +288,38 @@ nav .icon-burger .line {
   margin-left: 65px;
   font-family: "Montserrat", sans-serif;
 }
+.ssicons{
+  margin-left: 272px;
+  margin-top: 41px;
+  margin-bottom: -72px;
+  cursor: pointer;
+  display: flex;
+  gap: 31px;
+}
+.ss1{
+  cursor: pointer;
+}
+.ss1:hover{
+  opacity: 0.8;
+}
+.ss2{
+  cursor: pointer;
+}
+.ss2:hover{
+  opacity: 0.8;
+}
+.ss3{
+  cursor: pointer;
+}
+.ss3:hover{
+  opacity: 0.8;
+}
+.ss4{
+  cursor: pointer;
+}
+.ss4:hover{
+  opacity: 0.8;
+}
 @media screen and (max-width: 768px) {
   .hero_section_content h1 {
     position: absolute;

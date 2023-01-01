@@ -420,7 +420,9 @@ nav .icon-burger .line {
   }
 }
 .partners{
-  
+  display: flex;
+  margin-left: 65px;
+  margin-top: 120px;
 }
 .partners h2{
   font-family: 'Source Sans Pro';
@@ -430,4 +432,16 @@ nav .icon-burger .line {
   line-height: 60px;
 
   color: #181E4B;
+}
+.company1{
+  margin-left: 400px;
+  width: 206px;
+  height: 93px;
+  background: #fff;
+  box-shadow:  100px 7px 100px rgb(15 23 66 / 10%);
+  border-radius: 10px;
+}
+.img1{
+  margin-left: 34px;
+  margin-top: 9px;
 }

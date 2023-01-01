@@ -419,3 +419,15 @@ nav .icon-burger .line {
     align-content: center;
   }
 }
+.partners{
+  
+}
+.partners h2{
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 60px;
+
+  color: #181E4B;
+}

@@ -320,6 +320,48 @@ nav .icon-burger .line {
 .ss4:hover{
   opacity: 0.8;
 }
+.partners{
+  display: flex;
+  margin-left: 65px;
+  margin-top: 120px;
+}
+.partners h2{
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 60px;
+
+  color: #181E4B;
+}
+.company1{
+  margin-left: 400px;
+  width: 206px;
+  height: 93px;
+  background: #fff;
+  box-shadow:  100px 7px 100px rgb(15 23 66 / 10%);
+  border-radius: 10px;
+}
+.company2{
+  margin-left: 50px;
+  width: 206px;
+  height: 93px;
+  background: #fff;
+  box-shadow:  100px 7px 100px rgb(15 23 66 / 10%);
+  border-radius: 10px;
+}
+.company3{
+  margin-left: 50px;
+  width: 206px;
+  height: 93px;
+  background: #fff;
+  box-shadow:  100px 7px 100px rgb(15 23 66 / 10%);
+  border-radius: 10px;
+}
+.img1{
+  margin-left: 34px;
+  margin-top: 9px;
+}
 @media screen and (max-width: 768px) {
   .hero_section_content h1 {
     position: absolute;
@@ -419,29 +461,72 @@ nav .icon-burger .line {
     align-content: center;
   }
 }
-.partners{
-  display: flex;
-  margin-left: 65px;
-  margin-top: 120px;
+.slider {
+  position: relative;
+  overflow: hidden;
 }
-.partners h2{
-  font-family: 'Source Sans Pro';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 35px;
-  line-height: 60px;
 
-  color: #181E4B;
+.slides {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  width: 100%;
+  animation: slide 40s infinite;
 }
-.company1{
-  margin-left: 400px;
-  width: 206px;
-  height: 93px;
-  background: #fff;
-  box-shadow:  100px 7px 100px rgb(15 23 66 / 10%);
-  border-radius: 10px;
+
+.slide {
+  display: none;
+  height: 100%;
+  width: 100%;
 }
-.img1{
-  margin-left: 34px;
-  margin-top: 9px;
+
+.slide img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(100%);
+  }
+  5% {
+    display: flex;
+  }
+  25% {
+    transform: translateX(0%);
+  }
+  30% {
+    display: none;
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }

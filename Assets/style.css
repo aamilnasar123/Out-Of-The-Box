@@ -462,7 +462,7 @@ nav .icon-burger .line {
     align-content: center;
   }
 }
-@media screen and (max-width: 1268px){
+@media screen and (max-width: 1248px){
   .partners{
     display: flex;
     margin-left: 65px;
@@ -476,34 +476,6 @@ nav .icon-burger .line {
     font-size: 35px;
     line-height: 60px;
   
-    color: #181E4B;
-  }
-  .company1{
-    margin-left: 100  px;
-    width: 206px;
-    height: 93px;
-    background: #fff;
-    box-shadow:  100px 7px 100px rgb(15 23 66 / 10%);
-    border-radius: 10px;
-  }
-  .company2{
-    margin-left: 50px;
-    width: 206px;
-    height: 93px;
-    background: #fff;
-    box-shadow:  100px 7px 100px rgb(15 23 66 / 10%);
-    border-radius: 10px;
-  }
-  .company3{
-    margin-left: 50px;
-    width: 206px;
-    height: 93px;
-    background: #fff;
-    box-shadow:  100px 7px 100px rgb(15 23 66 / 10%);
-    border-radius: 10px;
-  }
-  .img1{
-    margin-left: 34px;
-    margin-top: 9px;
+    color: #fff;
   }
 }

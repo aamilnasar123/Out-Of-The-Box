@@ -363,6 +363,54 @@ nav .icon-burger .line {
   margin-left: 34px;
   margin-top: 9px;
 }
+.featuresCourses_image{
+  width: 419px;
+  margin-top: 110px;
+  margin-left: 65px;
+}
+.featuresCourses_image img{
+width: 419px;
+}
+.featuresCourses_content{
+margin-left: 749px;
+margin-top: -413px;
+}
+.featuresCourses_content h2{
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 52px;
+display: flex;
+}
+.featuresCourses_content p{
+margin-top: 20px;
+font-family: Inter;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 200.02%;
+display: flex;
+}
+.featuresCourses_button{
+margin-top: 34px;
+}
+.featuresCourses_button a{
+color: #fff;
+font-family: "Source Sans Pro";
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+align-items: center;
+padding-left: 43px;
+padding-top: 12px;
+padding-bottom: 11px;
+text-decoration: none;
+background: #42b883;
+border-radius: 10px;
+padding-right: 43px;
+cursor: pointer;
+}
 @media screen and (max-width: 768px) {
   .hero_section_content h1 {
     position: absolute;
@@ -453,6 +501,69 @@ nav .icon-burger .line {
     background-color: #42b883;
     color: #fff;
   }
+  .featuresCourses_image{
+    margin-top: 110px;
+    margin-left: 65px;
+}
+.featuresCourses_image img{
+  width: 300px;
+}
+  .featuresCourses_content{
+    margin-left: 400px;
+    margin-top: -317px;
+  }
+  .featuresCourses_content h2{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 52px;
+    display: flex;
+  }
+  .featuresCourses_content p{
+    margin-top: 20px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 200.02%;
+    display: flex;
+  }
+  .featuresCourses_button{
+    margin-top: 34px;
+  }
+  .featuresCourses_button a{
+    color: #fff;
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    align-items: center;
+    padding-left: 43px;
+    padding-top: 12px;
+    padding-bottom: 11px;
+    text-decoration: none;
+    background: #42b883;
+    border-radius: 10px;
+    padding-right: 43px;
+    cursor: pointer;
+  }
+  .featuresCourses_button a{
+    color: #fff;
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    align-items: center;
+    padding-left: 43px;
+    padding-top: 12px;
+    padding-bottom: 11px;
+    text-decoration: none;
+    background: #42b883;
+    border-radius: 10px;
+    padding-right: 43px;
+    cursor: pointer;
+  }
 }
 @media screen and (max-width: 894px) {
   .hero_section_img {
@@ -479,11 +590,68 @@ nav .icon-burger .line {
     color: #fff;
   }
 }
-.featuresCourses_image{
-    width: 419px;
+@media screen and (max-width: 983px){
+  .featuresCourses_image{
     margin-top: 110px;
     margin-left: 65px;
 }
 .featuresCourses_image img{
-  width: 419px;
+  width: 300px;
+}
+  .featuresCourses_content{
+    margin-left: 400px;
+    margin-top: -317px;
+  }
+  .featuresCourses_content h2{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 52px;
+    display: flex;
+  }
+  .featuresCourses_content p{
+    margin-top: 20px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 200.02%;
+    display: flex;
+  }
+  .featuresCourses_button{
+    margin-top: 34px;
+  }
+  .featuresCourses_button a{
+    color: #fff;
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    align-items: center;
+    padding-left: 43px;
+    padding-top: 12px;
+    padding-bottom: 11px;
+    text-decoration: none;
+    background: #42b883;
+    border-radius: 10px;
+    padding-right: 43px;
+    cursor: pointer;
+  }
+  .featuresCourses_button a{
+    color: #fff;
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    align-items: center;
+    padding-left: 43px;
+    padding-top: 12px;
+    padding-bottom: 11px;
+    text-decoration: none;
+    background: #42b883;
+    border-radius: 10px;
+    padding-right: 43px;
+    cursor: pointer;
+  }
 }

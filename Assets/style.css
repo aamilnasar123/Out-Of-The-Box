@@ -324,6 +324,7 @@ nav .icon-burger .line {
   display: flex;
   margin-left: 65px;
   margin-top: 120px;
+  animation: slide 40s infinite;
 }
 .partners h2{
   font-family: 'Source Sans Pro';
@@ -459,74 +460,5 @@ nav .icon-burger .line {
     height: 230px;
     margin-top: 700px;
     align-content: center;
-  }
-}
-.slider {
-  position: relative;
-  overflow: hidden;
-}
-
-.slides {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 500px;
-  width: 100%;
-  animation: slide 40s infinite;
-}
-
-.slide {
-  display: none;
-  height: 100%;
-  width: 100%;
-}
-
-.slide img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
-
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-@keyframes slide {
-  0% {
-    transform: translateX(100%);
-  }
-  5% {
-    display: flex;
-  }
-  25% {
-    transform: translateX(0%);
-  }
-  30% {
-    display: none;
-  }
-  100% {
-    transform: translateX(-100%);
   }
 }

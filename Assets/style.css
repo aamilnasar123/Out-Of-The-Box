@@ -372,11 +372,8 @@ nav .icon-burger .line {
 width: 419px;
 }
 .featuresCourses_content{
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
+  margin-left: 693px;
   align-items: end;
-  margin-left: auto;
   padding-right: 107px;
   margin-top: -413px;
 }
@@ -417,6 +414,12 @@ background: #42b883;
 border-radius: 10px;
 padding-right: 43px;
 cursor: pointer;
+}
+.featuresCourses_button a:hover{
+  opacity: 0.8;
+}
+.specialities_content h2{
+  
 }
 @media screen and (max-width: 768px) {
   .hero_section_content h1 {

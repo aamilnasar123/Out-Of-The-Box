@@ -418,10 +418,7 @@ cursor: pointer;
 .featuresCourses_button a:hover{
   opacity: 0.8;
 }
-.specialities_content h2{
-  
-}
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 894px) {
   .hero_section_content h1 {
     position: absolute;
     top: 220px;
@@ -500,7 +497,7 @@ cursor: pointer;
     align-items: center;
     padding-left: 25px;
     padding-top: 21px;
-    padding-bottom: 19px;
+    padding-bottom: 19px; 
     text-decoration: none;
     border-radius: 10px;
     padding-right: 25px;
@@ -511,6 +508,21 @@ cursor: pointer;
     background-color: #42b883;
     color: #fff;
   }
+  .partners{
+    display: flex;
+    justify-content: center;
+    margin-top: 380px;
+    animation: slide 40s infinite;
+  }
+  .partners h2{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 60px;
+  
+    color: #181E4B;
+  }
 }
 @media screen and (max-width: 894px) {
   .hero_section_img {
@@ -518,22 +530,5 @@ cursor: pointer;
     height: 230px;
     margin-top: 700px;
     align-content: center;
-  }
-}
-@media screen and (max-width: 1248px){
-  .partners{
-    display: flex;
-    margin-left: 65px;
-    margin-top: 120px;
-    animation: slide 40s infinite;
-  }
-  .partners h2{
-    font-family: 'Source Sans Pro';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 35px;
-    line-height: 60px;
-  
-    color: #fff;
   }
 }

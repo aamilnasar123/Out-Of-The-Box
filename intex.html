@@ -27,6 +27,10 @@
     rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Inter"
   />
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
   </head>
 
   <body class="sticky">
@@ -95,55 +99,59 @@
       </div>
     </section>
     <section>
-      <div class="partners">
-        <h2>Our Partners</h2>
-      </div>
-      <div class="slider">
-        <div class="slides">
-          <!--radio buttons start-->
-          <input type="radio" name="radio-btn" id="radio1">
-          <input type="radio" name="radio-btn" id="radio2">
-          <input type="radio" name="radio-btn" id="radio3">
-          <!--radio buttons end-->
-          <!--slide images start-->
-          <div class="slide first">
-            <img src="./Assets/images/company1.png" alt="">
-          </div>
-          <div class="slide">
-            <img src="./Assets/images/company2.png" alt="">
-          </div>
-          <div class="slide">
-            <img src="./Assets/images/company3.png" alt="">
-          </div>
-          <!--slide images end-->
-          <!--automatic navigation start-->
-          <div class="navigation-auto">
-            <div class="auto-btn1"></div>
-            <div class="auto-btn2"></div>
-            <div class="auto-btn3"></div>
-            <div class="auto-btn4"></div>
-          </div>
-          <!--automatic navigation end-->
+      <div class="container">
+        <div class="content">
+            <h2>Our Partners</h2>
         </div>
-        <!--manual navigation start-->
-        <div class="navigation-manual">
-          <label for="radio1" class="manual-btn"></label>
-          <label for="radio2" class="manual-btn"></label>
-          <label for="radio3" class="manual-btn"></label>
-          <label for="radio4" class="manual-btn"></label>
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+                <img src="./Assets/images/company1.png" alt="" />
+                <img src="./Assets/images/company2.png" alt="" />
+                <img src="./Assets/images/company3.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./Assets/images/company2.png" alt="" />
+              <img src="./Assets/images/company3.png" alt="" />
+              <img src="./Assets/images/company4.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./Assets/images/company4.png" alt="" />
+              <img src="./Assets/images/company2.png" alt="" />
+              <img src="./Assets/images/company1.png" alt="" />
+            </div>
+          </div>
+  
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
         </div>
-        <!--manual navigation end-->
       </div>
     </section>
-        <script type="text/javascript">
-    var counter = 1;
-    setInterval(function(){
-      document.getElementById('radio' + counter).checked = true;
-      counter++;
-      if(counter > 2){
-        counter = 1;
-      }
-    },4000);
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        },
+        direction: 'horizontal',
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
     </script>
   </body> 
 </html>

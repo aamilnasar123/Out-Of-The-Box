@@ -4,41 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Out Of The Box</title>
+    <title>Document</title>
     <link rel="stylesheet" href="./Assets/style.css" />
     <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="./Assets/images/logo.svg"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
     />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Poppins"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
     />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Source Sans Pro"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Montserrat"
-    />
-    <link
-    rel="stylesheet"
-    href="https://fonts.googleapis.com/css?family=Inter"
-  />
-  <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-/>
   </head>
-
-  <body class="sticky">
-    <!------------------------------->
-    <!-- Hero-section  -->
-    <!------------------------------->
-    <section class="hero-section">
-      <!-- main navigation menu (Desktop , tablet and mobile  devices)  -->
+  <body>
+    <section class="header">
       <header>
         <nav>
           <input type="checkbox" id="nav-toggle" />
@@ -69,89 +47,32 @@
           <div class="line"></div>
         </label>
       </header>
-      <div class="hero_section">
-        <div class="hero_section_content">
-          <h2>#Trusted by Students all over the world</h2>
-          <h1>
-            Let’s learn about new<br />
-            knowledge and abilities
-          </h1>
-          <p class="text1">
-            Let’s discover new knowledge and new frnds and have a learning<br />
-            experience with beutiful teachers
-          </p>
-        </div>
-        <div class="hero_section_img">
-          <img src="./Assets/images/HERO IMG.png" alt="" />
-        </div>
-        <div class="hero_section_button">
-          <a href="" class="b1">Explore</a>
-          <a href="" class="b2">Book a Demo</a>
-          
-        </div>
-        <div class="ssicons">
-        <a class="ss1" href="#"><img src="./Assets/images/Vector.png" alt=""></a>
-        <a class="ss2" href="#"><img src="./Assets/images/Vector (1).png" alt=""></a>
-        <a class="ss3" href="#"><img src="./Assets/images/Vector (2).png" alt=""></a>
-        <a class="ss4" href="#"><img src="./Assets/images/Vector (3).png" alt=""></a>
-        </div>
-        <p class="text2">Connect with us</p>
+      <div class="image">
+        <img src="./Assets/images/HERO IMG.png" alt="" />
+      </div>
+      <div class="text-box">
+        <p class="para1">#Trusted by Students all over the world</p>
+        <h1>Let’s learn about new<br />knowledge and abilities</h1>
+        <p class="sub-heading">
+          Let’s discover new knowledge and new frnds and have a learning<br />experience
+          with beutiful teachers
+        </p>
+        <a href="" class="hero-btn">Explore</a>
+        <a href="" class="hero-btn2">Book a demo</a>
       </div>
     </section>
-    <section>
-      <div class="container">
-        <div class="content">
-            <h2>Our Partners</h2>
-        </div>
-        <div class="swiper">
-          <!-- Additional required wrapper -->
-          <div class="swiper-wrapper">
-            <!-- Slides -->
-            <div class="swiper-slide">
-                <img src="./Assets/images/company1.png" alt="" />
-                <img src="./Assets/images/company2.png" alt="" />
-                <img src="./Assets/images/company3.png" alt="" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./Assets/images/company2.png" alt="" />
-              <img src="./Assets/images/company3.png" alt="" />
-              <img src="./Assets/images/company4.png" alt="" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./Assets/images/company4.png" alt="" />
-              <img src="./Assets/images/company2.png" alt="" />
-              <img src="./Assets/images/company1.png" alt="" />
-            </div>
-          </div>
-  
-          <!-- If we need navigation buttons -->
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
-        </div>
+    <section class="explore-courses-page">
+      <img src="./Assets/images/image.png" alt="" />
+      <div class="content-explore-courses-page">
+        <h1>What kind of Courses we<br />Offers to students</h1>
+        <p>
+          The future is here and Our platform is for students where they<br />can
+          learn about futuristic technologies, and how they will affect<br />their
+          lives in the future.
+        </p>
+        <br />
+        <a href="">Explore</a>
       </div>
     </section>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-    <script>
-      const swiper = new Swiper(".swiper", {
-        autoplay: {
-            delay: 3000,
-            disableOnInteraction: false,
-        },
-        direction: 'horizontal',
-        loop: true,
-
-        // If we need pagination
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-
-        // Navigation arrows
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-      });
-    </script>
-  </body> 
+  </body>
 </html>

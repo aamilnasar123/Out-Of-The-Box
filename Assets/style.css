@@ -349,15 +349,20 @@ nav .icon-burger .line {
     margin: 10px 0 10px;
   }
   .feature-page{
+    top: 1100px;
     width: 80%;
     margin: auto;
-    padding-top: 220%;
-    display: flex;
-    justify-content: inline-block;
-    align-items: center;
+    padding-top: 100px;
+    position: relative;
   }
   .feature-col img{
     width: 1px;
+  }
+  .feature-page h1{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
   }
 }
 @media (max-width: 346px){

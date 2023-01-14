@@ -232,6 +232,16 @@ nav .icon-burger .line {
 .content-explore-courses-page a:hover {
   opacity: 0.8;
 }
+.feature-page{
+  width: 80%;
+  margin: auto;
+  padding-top: 100px;
+}
+.row{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
 @media (max-width: 700px) {
   nav .logo {
     float: none;

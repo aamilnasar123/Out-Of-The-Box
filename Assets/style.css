@@ -328,3 +328,33 @@ nav .icon-burger .line {
     margin: 10px 0 10px;
   }
 }
+@media (max-width: 346px){
+  .hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 13px 42px;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #42b883;
+    position: relative;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  .hero-btn2 {
+    display: inline-block;
+    text-decoration: none;
+    color: #42b883;
+    margin-left: 2%;
+    padding: 7px 20px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: transparent;
+    position: relative;
+    border: 2px solid #42b883;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+}

@@ -242,6 +242,14 @@ nav .icon-burger .line {
   display: flex;
   justify-content: space-between;
 }
+.feature-col {
+  flex-basis: 32%;
+  margin-bottom: 30px;
+  position: relative;
+}
+.feature-col img{
+  width: 100%;
+}
 @media (max-width: 700px) {
   nav .logo {
     float: none;

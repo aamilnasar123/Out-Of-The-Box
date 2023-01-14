@@ -348,6 +348,17 @@ nav .icon-burger .line {
     line-height: 22px;
     margin: 10px 0 10px;
   }
+  .feature-page{
+    width: 80%;
+    margin: auto;
+    padding-top: 220%;
+    display: flex;
+    justify-content: inline-block;
+    align-items: center;
+  }
+  .feature-col img{
+    width: 1px;
+  }
 }
 @media (max-width: 346px){
   .hero-btn {

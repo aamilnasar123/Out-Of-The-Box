@@ -368,7 +368,7 @@ nav .icon-burger .line {
     margin: 10px 0 10px;
   }
   .feature-page{
-    top: 1100px;
+    top: 1200px;
     width: 80%;
     margin: auto;
     padding-top: 100px;
@@ -382,6 +382,31 @@ nav .icon-burger .line {
     display: flex;
     justify-content: center;
     text-align: center;
+  }
+  .feature-content{
+    width: 90%;
+    position: absolute;
+    top: 210%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Poppins", sans-serif;
+  }
+  .feature-content1 img{
+    width: 8%;
+  }
+  .feature-content1-text{
+    margin-left: 12%;
+    margin-top: -12%;
+  }
+  .feature-content hr{
+    width: 85%;
+    background-color: #B0B0B0;
+  }
+  .feature-content1-text h2{
+    font-size: 18px;
+  }
+  .feature-content1-text p{
+    font-size: 15px;
   }
 }
 @media (max-width: 346px){

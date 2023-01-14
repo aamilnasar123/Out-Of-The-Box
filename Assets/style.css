@@ -256,10 +256,17 @@ nav .icon-burger .line {
 .feature-content{
   width: 50%;
   position: absolute;
-  top: 220%;
+  top: 250%;
   left: 75%;
   transform: translate(-50%, -50%);
   font-family: "Poppins", sans-serif;
+}
+.feature-content1 img{
+  width: 8%;
+}
+.feature-content1-text{
+  margin-left: 12%;
+  margin-top: -12%;
 }
 @media (max-width: 700px) {
   nav .logo {

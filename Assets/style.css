@@ -237,6 +237,9 @@ nav .icon-burger .line {
   margin: auto;
   padding-top: 100px;
 }
+.feature-page h1{
+  font-size: 35px;
+}
 .row{
   margin-top: 5%;
   display: flex;

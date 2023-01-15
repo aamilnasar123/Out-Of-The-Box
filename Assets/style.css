@@ -273,6 +273,7 @@ nav .icon-burger .line {
   background-color: #B0B0B0;
 }
 .container {
+  margin-top: 10%;  
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -493,6 +494,14 @@ nav .icon-burger .line {
   .feature-content1-text p{
     font-size: 15px;
   }
+  .container {
+    width: 90%;
+    position: absolute;
+    top: 300%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Poppins", sans-serif;
+  }
   .bord {
     width: auto;
   }
@@ -531,14 +540,5 @@ nav .icon-burger .line {
     border-radius: 6px;
     cursor: pointer;
     transition: 0.5s;
-  }
-  .bord {
-    width: 100%;
-  }
-  .swiper {
-    width: 320px;
-  }
-  .bord h2,p{
-    padding: 0.2em;
   }
 }

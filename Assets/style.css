@@ -496,12 +496,10 @@ nav .icon-burger .line {
     font-size: 15px;
   }
   .container {
-    width: 100%;
-    position: absolute;
-    top: 520%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: "Poppins", sans-serif;
+width: 80%;
+margin: auto;
+text-align: center;
+padding-top: 100px;
   }
   .bord {
     width: auto;

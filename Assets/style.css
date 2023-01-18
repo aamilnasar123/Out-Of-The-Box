@@ -271,6 +271,12 @@ nav .icon-burger .line {
   width: 85%;
   background-color: #B0B0B0;
 }
+.testimonials {
+  width: 80%;
+  margin: auto;
+  padding-top: 100px;
+  text-align: center;
+}
 .testimonials span{
   color: #42b883;
 }

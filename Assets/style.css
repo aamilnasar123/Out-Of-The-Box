@@ -271,6 +271,9 @@ nav .icon-burger .line {
   width: 85%;
   background-color: #B0B0B0;
 }
+.testimonials span{
+  color: #42b883;
+}
 @media (max-width: 1396px){
   .feature-content{
     width: 50%;

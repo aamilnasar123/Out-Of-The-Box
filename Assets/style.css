@@ -381,7 +381,7 @@ nav .icon-burger .line {
     width: 50%;
     position: absolute;
     left: 75%;
-    transform: translate(-50%, -90%);
+    transform: translate(-50%, -70%);
     font-family: "Poppins", sans-serif;
   }
 }
